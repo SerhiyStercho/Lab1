@@ -3,8 +3,8 @@ using namespace std;
 #include "class.h"
 void main()
 {
-	test zalypa(5, 7);
-	cout << zalypa.get_a() << " "  << zalypa.get_b() << endl;
-	
+	test object(5, 7);
+	cout << object.get_a() << " "  << object.get_b() << endl;
+	system("pause");
 
 }
